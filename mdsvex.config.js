@@ -6,7 +6,7 @@ import remarkExternalLinks from "remark-external-links";
 const config = defineConfig({
   extensions: [".svelte.md", ".md", ".svx"],
   layout: {
-    blog: "/src/routes/enseignements/_post.svelte",
+    enseignement: "/src/routes/enseignements/_post.svelte",
   },
   smartypants: {
     dashes: "oldschool",

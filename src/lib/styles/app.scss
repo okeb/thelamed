@@ -1,4 +1,5 @@
-:where(h2, h3, h4, h5, h6) {
+:where(main h2, main h3, main h4, main h5, main h6) {
+  margin-left:47px !important;
   .icon-link {
     position: relative;
     
@@ -12,8 +13,25 @@
       text-decoration: underline;
     }
   }
-
   &:hover .icon-link::before {
     opacity: 1;
   }
+}
+
+.main_box {
+  margin-bottom:40px;
+}
+
+.article_post {
+  width: 75%;
+  padding:50px 20px;
+
+  h1 {
+    margin-bottom:30px;
+    line-height: 10px;
+  }
+}
+
+.aside_post {
+  width: 25%;
 }

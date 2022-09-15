@@ -36,6 +36,11 @@ export default {
         "@apply": "text-blue-600 underline",
       },
     },
+    "nav-link-light": {
+      fontFamily: "Basier Circle",
+      "@apply":
+        "text-black font-normal no-underline text-black dark:text-white leading-none mx-0 my-auto",
+    },
   },
   extend: {},
 };
