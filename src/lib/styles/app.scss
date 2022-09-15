@@ -22,15 +22,31 @@
   margin-bottom:40px;
 }
 
-.article_post {
+article {
   width: 75%;
   padding:50px 20px;
 
-  h1 {
+
+  h2 {
     margin-bottom:30px;
-    line-height: 10px;
+    margin-top:60px;
+    line-height: 36px;
+    font-weight: 900 !important;
+    transition: all .5;
+
+    :hover {
+      color:darkgoldenrod !important;
+    } 
   }
 }
+
+// h1 {
+//     margin-bottom:30px;
+//     margin-top:60px;
+//     line-height: 36px;
+//     text-align: left;
+//     font-weight: 900 !important;
+// }
 
 .aside_post {
   width: 25%;
