@@ -22,8 +22,9 @@ const config = defineConfig({
     // ],
   ],
   rehypePlugins: [
-    rehypeSlug, 
-    rehypeAutolinkHeadings],
+    rehypeSlug,
+    rehypeAutolinkHeadings
+  ],
 });
 
 export default config;
