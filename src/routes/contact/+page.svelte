@@ -43,58 +43,16 @@
         <div class="px-3 lg:px-6 pt-6 font-sans">
             <h2 class="font-bold mb-6 text-2xl">Ne trouvez-vous pas la réponse à votre question ? Écrivez-nous.</h2>
             <form>
-            <div class="mb-6">
-                <input type="text" class="form-control block
-                w-full
-                px-3
-                py-1.5
-                text-base
-                font-normal
-                text-gray-700
-                bg-white bg-clip-padding
-                border border-solid border-gray-300
-                rounded
-                transition
-                ease-in-out
-                m-0
-                focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput7"
+            <div class="mb-4">
+                <input type="text" class="input" id="exampleInput7"
                 placeholder="Nom & Prenom">
             </div>
-            <div class="mb-6">
-                <input type="email" class="form-control block
-                w-full
-                px-3
-                py-1.5
-                text-base
-                font-normal
-                text-gray-700
-                bg-white bg-clip-padding
-                border border-solid border-gray-300
-                rounded
-                transition
-                ease-in-out
-                m-0
-                focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput8"
+            <div class="mb-4">
+                <input type="email" class="input" id="exampleInput8"
                 placeholder="Adresse email">
             </div>
-            <div class="mb-6">
-                <textarea class="
-                form-control
-                block
-                w-full
-                px-3
-                py-1.5
-                text-base
-                font-normal
-                text-gray-700
-                bg-white bg-clip-padding
-                border border-solid border-gray-300
-                rounded
-                transition
-                ease-in-out
-                m-0
-                focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
-                " id="exampleFormControlTextarea13" rows="3" placeholder="Votre message"></textarea>
+            <div class="mb-2">
+                <textarea class="input" id="exampleFormControlTextarea13" rows="3" placeholder="Votre message"></textarea>
             </div>
             <div class="text-center mb-6">
                 <input type="checkbox"
@@ -102,7 +60,7 @@
                 id="exampleCheck87" checked>
                 <label class="form-check-label inline-block text-gray-800" for="exampleCheck87">Je confirme vouloir envoyer ce message</label>
             </div>
-            <button type="submit" class="w-full whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">Envoyez</button>
+            <button type="submit" class="w-full whitespace-nowrap inline-flex items-center justify-center px-4 py-3 border border-transparent rounded-lg shadow-sm text-base font-medium text-gray-900 text-lg bg-indigo-600 hover:bg-indigo-700 dark:hover:bg-purple-800">Envoyez</button>
             </form>
         </div>
     </div>
