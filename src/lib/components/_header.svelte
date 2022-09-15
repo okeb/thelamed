@@ -1,4 +1,4 @@
-<header class="px-12 dark:bg-black bg-white grid grid-cols-3 font-normal border-1 border-gray-800 <lg:py-4 lg:py-6 dark:text-white">
+<header class="font-sans px-12 dark:bg-black bg-white grid grid-cols-3 font-normal border-1 border-gray-800 <lg:py-4 lg:py-6 dark:text-white">
   <div class="flex content-center">
     <a class="nav-link-light text-2xl font-bold" href="/">LAMED</a>
   </div>

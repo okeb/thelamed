@@ -23,11 +23,12 @@
 }
 
 article {
-  width: 75%;
-  padding:50px 20px;
+  width: 65%;
+  padding:50px 25px 50px 75px;
 
 
   h2 {
+    font-size: 2rem;
     margin-bottom:30px;
     margin-top:60px;
     line-height: 36px;
@@ -48,6 +49,27 @@ article {
 //     font-weight: 900 !important;
 // }
 
-.aside_post {
-  width: 25%;
+aside {
+  width: 35%;
+  margin-top: 120px;
+  height: auto;
+  border:none !important;
+  
+  .aside-menu {
+    list-style-type: none;
+    color:aliceblue;
+    position: sticky !important;
+    margin-left:transparent;
+    top:140px;
+    margin-right:20px;
+    margin-left:0px;
+    li {
+      margin:25px 0;
+    }
+  }
 }
+
+#main_box {
+  display:flex;
+}
+
