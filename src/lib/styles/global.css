@@ -1,0 +1,234 @@
+/* TODO: small screen */
+@media (max-width: 563px) {
+
+    p,
+    ul,
+    ol {
+        font-size: 15px;
+    }
+
+
+    p {
+        margin-left: 17px;
+        margin-right: 17px;
+    }
+}
+
+/* TODO: tablet screen */
+@media (min-width: 563px) and (max-width:1250px) {
+
+    p,
+    ul,
+    ol {
+        font-size: 16px;
+    }
+
+
+    p {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+/* TODO: light side */
+@media (prefers-color-scheme: light) {
+    h1 {
+        background-image: linear-gradient(45deg,
+                hsl(240deg 100% 20%) 0%,
+                hsl(289deg 100% 21%) 11%,
+                hsl(315deg 100% 27%) 22%,
+                hsl(329deg 100% 36%) 33%,
+                hsl(337deg 100% 43%) 44%,
+                hsl(357deg 91% 59%) 56%,
+                hsl(17deg 100% 59%) 67%,
+                hsl(34deg 100% 53%) 78%,
+                hsl(45deg 100% 50%) 89%,
+                hsl(55deg 100% 50%) 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    main p {
+        padding: 0 8px;
+    }
+
+    blockquote {
+        border-color: hsl(357deg 91% 59%);
+        background-color: #fbfbfb;
+    }
+
+    aside[class*='success'] {
+        border-color: rgb(38, 217, 7);
+        background-color: rgb(215, 255, 208);
+    }
+
+    aside[class*='error'] {
+        border-color: rgb(217, 7, 7);
+        background-color: rgb(255, 238, 238);
+    }
+
+    aside[class*='warning'] {
+        border-color: rgb(217, 115, 7);
+        background-color: rgb(255, 238, 220);
+    }
+
+    aside[class*='info'] {
+        border-color: rgb(7, 119, 217);
+        background-color: rgb(223, 240, 255);
+    }
+
+    hr {
+        background: hsl(329deg 100% 36%);
+        background-image: linear-gradient(45deg,
+                hsl(240deg 100% 20%) 0%,
+                hsl(289deg 100% 21%) 11%,
+                hsl(315deg 100% 27%) 22%,
+                hsl(329deg 100% 36%) 33%,
+                hsl(337deg 100% 43%) 44%,
+                hsl(357deg 91% 59%) 56%,
+                hsl(17deg 100% 59%) 67%,
+                hsl(34deg 100% 53%) 78%,
+                hsl(45deg 100% 50%) 89%,
+                hsl(55deg 100% 50%) 100%);
+    }
+
+
+    li::marker {
+        color: rgb(238, 128, 3);
+
+    }
+
+    code {
+        background-color: #ffeaca;
+        color: #6f4506;
+    }
+
+    .surligne {
+        background-color: #fff3d6;
+        text-decoration: underline #ffdb82;
+        text-decoration-thickness: 4px;
+        text-underline-offset: 0.3em;
+        padding-bottom: 2px;
+    }
+
+    main a {
+        color: #d9175b;
+    }
+
+    main a:hover,
+    main a:focus {
+        color: #c80cdd;
+        /* color:#d05306; */
+        /* text-underline-offset: 4px; */
+    }
+}
+
+/* TODO: dark side */
+@media (prefers-color-scheme: dark) {
+    h1 {
+        background-image: linear-gradient(135deg,
+                hsl(310deg 87% 44%) 0%,
+                hsl(265deg 95% 48%) 44%,
+                hsl(205deg 100% 50%) 83%,
+                hsl(131deg 100% 50%) 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    aside {
+        color: white;
+    }
+
+    blockquote {
+        border-color: #ff42aa;
+        ;
+        background-color: #131313;
+    }
+
+
+    aside[class*='success'] {
+        border-color: rgb(38, 255, 0);
+        background-color: rgb(6, 39, 0);
+    }
+
+    aside[class*='error'] {
+        border-color: rgb(255, 0, 0);
+        background-color: rgb(55, 1, 1);
+    }
+
+    aside[class*='warning'] {
+        border-color: rgb(255, 132, 0);
+        background-color: rgb(51, 26, 0);
+    }
+
+    aside[class*='info'] {
+        border-color: rgb(1, 136, 255);
+        background-color: rgb(0, 30, 54);
+    }
+
+    hr {
+        background: #c80cdd;
+        background-image: linear-gradient(135deg,
+                hsl(310deg 87% 44%) 0%,
+                hsl(265deg 95% 48%) 44%,
+                hsl(205deg 100% 50%) 83%,
+                hsl(131deg 100% 50%) 100%);
+    }
+
+    li::marker {
+        color: rgb(251, 1, 251);
+    }
+
+    code {
+        background-color: #57003a;
+        color: #ff42aa;
+    }
+
+    .surligne {
+        background-color: #0024b3;
+        text-decoration: underline #001a83;
+        text-decoration-thickness: 4px;
+        text-underline-offset: 0.3em;
+        padding-bottom: 2px;
+    }
+
+    main a, header a {
+        color: #ff9500;
+    }
+
+    header a {
+        color: #ff9500;
+    }
+
+    footer a {
+        color: rgb(223, 240, 255);
+        text-decoration: none;
+    }
+
+    header a:hover,
+    header a:focus {
+        color: #f1024a;
+    }
+
+    main a:hover,
+    main a:focus {
+        color: #f1024a;
+    }
+
+    footer a:hover,
+    footer li> a:hover,
+    footer a:focus {
+        text-decoration: none !important;
+    }
+
+    body {
+        background-color: hsl(210deg, 15%, 6%);
+        color: #ffffff;
+    }
+    
+    li.nav-link {
+        line-height: 16px !important;
+    }
+}

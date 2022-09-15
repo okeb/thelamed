@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'n27';
+    src: url('fonts/n27-regular-webfont.eot');
+    src: url('fonts/n27-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/n27-regular-webfont.woff2') format('woff2'),
+        url('fonts/n27-regular-webfont.woff') format('woff'),
+        url('fonts/n27-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Basier Circle';
+    src: url('fonts/BasierCircle-Regular.eot');
+    src: url('fonts/BasierCircle-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/BasierCircle-Regular.woff2') format('woff2'),
+        url('fonts/BasierCircle-Regular.woff') format('woff'),
+        url('fonts/BasierCircle-Regular.ttf') format('truetype'),
+        url('fonts/BasierCircle-Regular.svg#BasierCircle-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'basier_circle';
+    src: url('fonts/basiercircle-regular-webfont.eot');
+    src: url('fonts/basiercircle-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/basiercircle-regular-webfont.woff2') format('woff2'),
+        url('fonts/basiercircle-regular-webfont.woff') format('woff'),
+        url('fonts/basiercircle-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'basier_square_mono';
+    src: url('fonts/basiersquaremono-regular-webfont.eot');
+    src: url('fonts/basiersquaremono-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/basiersquaremono-regular-webfont.woff2') format('woff2'),
+        url('fonts/basiersquaremono-regular-webfont.woff') format('woff'),
+        url('fonts/basiersquaremono-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'archia';
+    src: url('fonts/archia-regular-webfont.eot');
+    src: url('fonts/archia-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/archia-regular-webfont.woff2') format('woff2'),
+        url('fonts/archia-regular-webfont.woff') format('woff'),
+        url('fonts/archia-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'strawford';
+    src: url('fonts/strawford-regular-webfont.eot');
+    src: url('fonts/strawford-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/strawford-regular-webfont.woff2') format('woff2'),
+        url('fonts/strawford-regular-webfont.woff') format('woff'),
+        url('fonts/strawford-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'strawford';
+    src: url('fonts/strawford-regularitalic-webfont.eot');
+    src: url('fonts/strawford-regularitalic-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/strawford-regularitalic-webfont.woff2') format('woff2'),
+        url('fonts/strawford-regularitalic-webfont.woff') format('woff'),
+        url('fonts/strawford-regularitalic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}

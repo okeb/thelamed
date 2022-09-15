@@ -1,0 +1,237 @@
+/* global css intructions */
+/* TODO: Reset doc */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: calc(1.5rem + 1vw);
+    font-weight: 500;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    font-family: "Inter", "Basier Cicle", "system-ui","sans-serif";
+}
+
+h2:hover .icon-link::before,
+h3:hover .icon-link::before,
+h4:hover .icon-link::before,
+h5:hover .icon-link::before,
+h6:hover .icon-link::before {
+    opacity: 1;
+}
+
+h2.icon-link,
+h3.icon-link,
+h4.icon-link,
+h5.icon-link,
+h6.icon-link {
+    position: relative;
+}
+
+h2::before,
+h3::before,
+h4::before,
+h5::before,
+h6::before {
+    content: '#';
+    position: absolute;
+    left: -1ch;
+    top: 0;
+    line-height: 1;
+    opacity: 0;
+    text-decoration: underline;
+}
+
+p,
+ul,
+ol {
+    font-family: 'Basier Circle', 'basier_circle', 'inter';
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    font-family: 'inter';
+    letter-spacing: 0ch;
+    font-weight: 700;
+}
+
+ol {
+    list-style: inside decimal;
+}
+
+ul {
+    list-style: inside;
+    list-style-type: disc;
+}
+
+nav ul {
+    margin: 0;
+}
+
+code {
+    font-family: 'JetBrains Mono', 'basier_square_mono', 'League mono', 'Menlo', 'Courier Prime', 'Operator Mono', 'Fira Code', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    border-radius: 3px;
+    padding: 1px 3px;
+}
+
+p,
+ul,
+ol {
+    padding-bottom: 21px;
+}
+
+.header ul{
+    padding-bottom: 0px;
+    padding-inline-start: 0;
+} 
+
+p {
+    margin-left: 47px;
+    margin-right: 47px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+}
+
+blockquote {
+    padding: 25px 30px 35px 35px;
+    margin-bottom: 25px;
+    font-style: oblique;
+    border-left: 3px solid;
+
+}
+
+aside {
+    padding: 25px 30px;
+    margin-bottom: 25px;
+    margin-top:25px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-left: 3px solid;
+    font-weight: 600;
+    font-family: "Basier Circle", "Inter", Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+main {
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: -10px;
+}
+
+header a {
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    transition: all 750ms;
+    will-change: transform;
+}
+
+main a {
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    transition: all 750ms;
+    will-change: transform;
+}
+
+footer a {
+    font-weight: 600;
+    transition: all 750ms;
+    will-change: transform;
+}
+
+header a:hover,
+header a:focus {
+    text-decoration: none;
+    transition: all .5s;
+}
+
+main a:hover,
+main a:focus {
+    /* text-underline-offset: 4px; */
+    text-decoration: underline 3px;
+    transition: all .5s;
+}
+
+footer a:hover,
+footer a:focus {
+    transition: all .5s;
+}
+
+#root {
+    isolation: isolate;
+}
+
+/* TODO: special class */
+.gradient_text {
+    background-image: linear-gradient(45deg,
+            hsl(240deg 100% 20%) 0%,
+            hsl(289deg 100% 21%) 11%,
+            hsl(315deg 100% 27%) 22%,
+            hsl(329deg 100% 36%) 33%,
+            hsl(337deg 100% 43%) 44%,
+            hsl(357deg 91% 59%) 56%,
+            hsl(17deg 100% 59%) 67%,
+            hsl(34deg 100% 53%) 78%,
+            hsl(45deg 100% 50%) 89%,
+            hsl(55deg 100% 50%) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
