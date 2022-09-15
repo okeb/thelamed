@@ -9,7 +9,7 @@
     <a class="nav-link" href="/contact">Contact</a>
   </div>
   <div class="flex content-center justify-end">
-    <a href="/connexion" class="nav-link-light px-4 py-3 hover:bg-light-600 rounded-md">Connexion</a>
-    <a href="#newsletter" class="nav-link-light inline-flex items-center justify-center px-4 py-2 ml-8 text-base font-medium text-white bg-light-800 border border-transparent rounded-md whitespace-nowrap hover:bg-blue-200"> Newsletter </a>
+    <a href="/connexion" class="nav-link-light px-4 py-3 hover:bg-light-600 dark:hover:bg-gray-900 rounded-md">Connexion</a>
+    <a href="#newsletter" class="nav-link-light inline-flex items-center justify-center px-4 py-2 ml-8 text-base font-medium text-white bg-light-800 dark:bg-gray-700 border border-transparent rounded-md whitespace-nowrap hover:bg-yellow-400 dark:hover:bg-purple-800"> Newsletter </a>
   </div>
 </header>

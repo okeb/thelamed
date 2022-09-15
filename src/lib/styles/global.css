@@ -93,15 +93,23 @@
                 hsl(55deg 100% 50%) 100%);
     }
 
+    input {
+        border-style: solid;
+        appearance: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        outline: none;
+    }
+
+    input::-moz-focus-inner {
+        border: 0;
+        padding: 0;
+    }
+
 
     li::marker {
         color: rgb(238, 128, 3);
 
-    }
-
-    code {
-        background-color: #ffeaca;
-        color: #6f4506;
     }
 
     .surligne {
@@ -110,6 +118,10 @@
         text-decoration-thickness: 4px;
         text-underline-offset: 0.3em;
         padding-bottom: 2px;
+    }
+
+    header a {
+        color: #222;
     }
 
     main a {
@@ -194,12 +206,16 @@
         padding-bottom: 2px;
     }
 
-    main a, header a {
+    input, textarea, button {
+        color:#FFF;
+    }
+
+    main a {
         color: #ff9500;
     }
 
     header a {
-        color: #ff9500;
+        color: #fbfbfb;
     }
 
     footer a {
@@ -209,7 +225,7 @@
 
     header a:hover,
     header a:focus {
-        color: #f1024a;
+        color: #feb3ff;
     }
 
     main a:hover,
