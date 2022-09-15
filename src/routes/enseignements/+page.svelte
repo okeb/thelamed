@@ -11,7 +11,7 @@
     {#each data.rubriques as rubrique }
       <li>
         <a href="/enseignements/rubrique/{rubrique}">
-          {rubrique}
+          {rubrique} ({data.rubriques_json[rubrique]})
         </a>
       </li>
     {/each}
