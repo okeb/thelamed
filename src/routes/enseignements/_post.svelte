@@ -5,12 +5,12 @@
   export let rubriques_json
   import "$lib/styles/app.scss";
 </script>
-
+<div style="height:screen; background-color:rgb(245, 158, 11); font-family:'Merriweather'; padding-top:130px; text-align:center">
+  <h1>{title}</h1>
+  <p><strong>Publié le:</strong> {date}</p>
+</div>
 <div id="main_box">
   <article class="article_post">
-    <h1>{title}</h1>
-    <p><strong>Publié le:</strong> {date}</p>
-
     <slot />
   </article>
 
