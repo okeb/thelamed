@@ -29,7 +29,7 @@
   </div>
   <div class="flex content-center justify-end">
     <!-- <a href="/connexion" class="nav-link-light px-4 py-3 hover:bg-light-600 dark:hover:bg-gray-900 rounded-md">Connexion</a> -->
-    <button class="md:hidden rounded-md bg-transparent text-black border-transparent px-3" on:click={open_menu}>
+    <button in:fade out:fade class="md:hidden { menu? 'invisible':'visible' }  rounded-md bg-transparent text-black border-transparent px-3" on:click={open_menu}>
       <svg width="48" height="48" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 8h12M6 12h12M6 16h12"/></svg>
     </button>
     

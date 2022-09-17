@@ -31,8 +31,8 @@
 
 
 <section>
-    <section class="hero grid grid-cols-1 content-center h-screen <md:px-12 xl:px-48">
-        <div class="md:h-64 <md:h-56">
+    <section class="hero grid grid-cols-1 content-center h-screen <md:px-8 xl:px-48">
+        <div>
             {#if start}
                  <h1 class="text-center font-lato font-semibold leading-13 md:leading-17 text-5xl md:text-7xl" transition:typewriter>Des enseignements bibliques qui bâtissent votre Foi.</h1>
             {/if}
