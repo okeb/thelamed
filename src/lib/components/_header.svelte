@@ -37,7 +37,7 @@
       <svg width="48" height="48" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 8h12M6 12h12M6 16h12"/></svg>
     </button>
     
-    <button class="<md:hidden nav-link-light inline-flex items-center justify-center px-4 py-1.5 ml-4 text-base font-medium  rounded-md whitespace-nowrap hover:bg-gray-600 dark:border border-transparent dark:border-gray-600 dark:hover:border-transparent">S'inscrire</button>
+    <button class="<md:hidden nav-link-light inline-flex items-center justify-center px-4 py-1.5 ml-4 text-base font-medium  rounded-md whitespace-nowrap hover:bg-yellow-500 dark:border border-transparent dark:border-gray-600 dark:hover:border-transparent">S'inscrire</button>
   </div>
 </header>
 
