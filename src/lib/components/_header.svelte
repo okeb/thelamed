@@ -37,8 +37,10 @@
   </div>
 </header>
 
+
+
 {#if menu}
-<div in:slide={{duration:600}} out:slide class="{ menu? 'visible':'invisible' } mobile-menu w-full top-0 left-0 right-0 bg-black/75 backdrop-filter backdrop-blur-lg fixed z-50  h-full md:hidden">
+<div in:slide={{duration:600}} out:slide class="{ menu? 'visible':'invisible' } mobile-menu w-full top-0 left-0 right-0 bg-black/75 backdrop-blur-lg fixed z-50  h-full md:hidden">
   <div class="left-0 right-0 top-0 font-lato px-0 flex justify-end">
     <button class="lg:hidden rounded-md bg-transparent text-black border-transparent px-3" on:click={open_menu}>
       <svg width="48" height="48" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 12L7 7m5 5l5 5m-5-5l5-5m-5 5l-5 5"/></svg>
