@@ -38,7 +38,7 @@
 </header>
 
 {#if menu}
-<div in:slide={{duration:600}} out:slide class="{ menu? 'visible':'invisible' } mobile-menu w-full top-0 left-0 right-0 bg-black/75 backdrop-filter backdrop-blur-lg fixed z-50 md:hidden">
+<div in:slide={{duration:600}} out:slide class="{ menu? 'visible':'invisible' } mobile-menu w-full top-0 left-0 right-0 bg-black/75 backdrop-filter backdrop-blur-lg fixed z-50  h-full md:hidden">
   <div class="left-0 right-0 top-0 font-lato px-0 flex justify-end">
     <button class="lg:hidden rounded-md bg-transparent text-black border-transparent px-3" on:click={open_menu}>
       <svg width="48" height="48" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 12L7 7m5 5l5 5m-5-5l5-5m-5 5l-5 5"/></svg>
@@ -67,7 +67,7 @@
         </a>
       </div>
     </div>
-    <p class="mobile-base-text my-auto py-2 mx-6 -mb-12 text-xs"><span>Développer avec <span class="pb-2"><svg class="inline-flex" width="12" height="12" viewBox="0 0 24 24"><path fill="#F00" stroke="#F00" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 4c-3.2 0-5 2.667-5 4c0-1.333-1.8-4-5-4S3 6.667 3 8c0 7 9 12 9 12s9-5 9-12c0-1.333-.8-4-4-4z"/></svg></span> par la Grâce de Yéhowshuw'a Ha-Mashiyah</span></p>
+    <p class="mobile-base-text my-auto py-2 mx-auto px-auto absolute bottom-7 text-xs"><span>Développer avec <span class="pb-2"><svg class="inline-flex" width="12" height="12" viewBox="0 0 24 24"><path fill="#F00" stroke="#F00" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 4c-3.2 0-5 2.667-5 4c0-1.333-1.8-4-5-4S3 6.667 3 8c0 7 9 12 9 12s9-5 9-12c0-1.333-.8-4-4-4z"/></svg></span> par la Grâce de notre 'Elohyim Yéhowshuw'a Ha-Mashiyah</span></p>
   </div>
 </div>
 {/if}
