@@ -2,7 +2,7 @@
   <div class="pt-16 pb-11 grid grid-cols-5 <md:grid-cols-1 @md:grid-cols-4">
     <div class="col-span-2 pl-3 pr-16 <md:pr-3 mt-3 <md:col-span-1">
       <h3 class="font-merri ml-0 text-3xl">LAMED</h3>
-      <p class="pl-0 ml-0 text-lg">SurveyMonkey vous est proposé par momentive.ai. Façonnez l'avenir grâce à des données optimisées par l'intelligence artificielle et des solutions de gestion d'expérience conçues pour les entreprises modernes</p>
+      <p class="pl-0 ml-0 text-lg">Centre de Formation biblique pour l’édification et l’émancipation de tout chrétien, disciple du Seigneur et 'Elohyim, Yehowshuw'a Ha-Mashiyah.</p>
     </div>
     <div class="<md:px-4 lg:px-8 <md:hidden">
       <h4 class="text-2xl font-bold font-lato pb-3">Rubriques</h4>
