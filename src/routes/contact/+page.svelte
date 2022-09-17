@@ -44,15 +44,15 @@
             <h2 class="font-bold mb-6 text-2xl">Ne trouvez-vous pas la réponse à votre question ? Écrivez-nous.</h2>
             <form>
             <div class="mb-4">
-                <input type="text" class="input" id="exampleInput7"
+                <input type="text" class="input caret-yellow-500" id="exampleInput7"
                 placeholder="Nom & Prenom">
             </div>
             <div class="mb-4">
-                <input type="email" class="input" id="exampleInput8"
+                <input type="email" class="input caret-yellow-500" id="exampleInput8"
                 placeholder="Adresse email">
             </div>
             <div class="mb-2">
-                <textarea class="input" id="exampleFormControlTextarea13" rows="3" placeholder="Votre message"></textarea>
+                <textarea class="input caret-yellow-500" id="exampleFormControlTextarea13" rows="3" placeholder="Votre message"></textarea>
             </div>
             <div class="text-center mb-6">
                 <input type="checkbox"

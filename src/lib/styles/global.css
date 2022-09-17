@@ -120,13 +120,13 @@
         padding-bottom: 2px;
     }
 
-    header a {
+    /* header a {
         color: #222;
     }
 
     main a {
         color: #d9175b;
-    }
+    } */
 
     main a:hover,
     main a:focus {
@@ -213,10 +213,10 @@
     main a {
         color: #ff9500;
     }
-
+/* 
     header a {
         color: #fbfbfb;
-    }
+    } */
 
     footer a {
         color: rgb(223, 240, 255);
