@@ -34,7 +34,7 @@
     <section class="hero grid grid-cols-1 content-center h-screen <md:px-8 xl:px-48">
         <div>
             {#if start}
-                 <h1 class="text-center font-lato font-semibold leading-13 md:leading-17 text-5xl md:text-7xl" transition:typewriter>Des enseignements bibliques qui bâtissent votre Foi.</h1>
+                 <h1 class="text-center font-lato font-semibold -mb-1 leading-13 md:leading-17 text-5xl md:text-7xl" transition:typewriter>Des enseignements bibliques qui bâtissent votre Foi.</h1>
             {/if}
         </div>
         <p class="mb-8 text-xl font-lato text-center text-gray-500 lg:text-2xl dark:text-gray-400">Retrouvez <span class="underline-blue-500 underline underline-offset-2 underline-2">gratuitement</span> des enseignements sur <span class="underline-green-500 underline underline-offset-2">diverses domaines de la marche du chrétien</span>, et à la lueur de la parole du Seigneur <span class="underline-yellow-500 underline underline-offset-2 underline-2">Yehowshuw'a Ha-Mashiyah</span>, selon l’excellence de sa grâce.</p>
