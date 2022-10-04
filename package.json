@@ -14,13 +14,16 @@
     "sass": "^1.54.4",
     "svelte": "^3.49.0",
     "svelte-preprocess": "^4.10.7",
+    "svelte-time": "^0.7.1",
     "svelte-windicss-preprocess": "^4.2.8",
     "vite": "^3.0.9"
   },
   "type": "module",
   "dependencies": {
+    "dayjs": "^1.11.5",
     "rehype-autolink-headings": "^6.1.1",
     "rehype-slug": "^5.0.1",
-    "remark-external-links": "^9.0.1"
+    "remark-external-links": "^9.0.1",
+    "svelte-toc": "^0.4.0"
   }
 }

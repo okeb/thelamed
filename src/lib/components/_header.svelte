@@ -13,7 +13,7 @@
 
 </script>
 
-<header class="fixed left-0 right-0 top-0 z-40 font-lato px-6 py-5 dark:bg-black bg-white grid grid-cols-3 <md:grid-cols-2 font-normal border-1 border-gray-800 <md:pl-8 <md:pr-0 <md:py-0 dark:text-white">
+<header class=" fixed left-0 right-0 top-0 z-40 font-lato lg:px-40 px-6 py-5 dark:bg-black bg-white grid grid-cols-3 <md:grid-cols-2 font-normal border-1 border-gray-800 <md:pl-8 <md:pr-0 <md:py-0 dark:text-white">
   <div class="flex content-center">
     <a class="nav-title text-2xl no-underline my-auto font-bold font-merri" href="/">LAMED</a>
   </div>

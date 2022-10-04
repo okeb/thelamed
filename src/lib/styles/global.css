@@ -134,6 +134,35 @@
         /* color:#d05306; */
         /* text-underline-offset: 4px; */
     }
+    #enseignement a h4{
+        color:#131313 !important;
+    }
+    #enseignement a h4:hover,
+    #enseignement a h4:focus {
+        color: #171717 !important;
+    }
+    #enseignement a {
+        color: #131313 !important;
+    }
+    a p:hover{
+        color: #777 !important;
+    }
+    #enseignement h5 {
+        color: #131313 !important;
+    }
+    #enseignement a {
+        color: lightslategray !important;
+    }
+    #enseignement a:hover {
+        color: #131313 !important;
+    }
+    #enseignement .last-post a h5:hover {
+        color: #444 !important;
+    }
+    a#list-rubrique-button {
+        color:lightseagreen !important;
+    }
+
 }
 
 /* TODO: dark side */
@@ -151,6 +180,20 @@
 
     aside {
         color: white;
+    }
+
+    #enseignement p > a{
+        color: #999 !important;
+    }
+
+    #enseignement p > a:hover{
+        color: #FFF !important;
+
+    }
+    
+    #enseignement p > span:hover{
+        color: lightseagreen !important;
+        opacity: 100% !important;
     }
 
     blockquote {

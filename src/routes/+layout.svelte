@@ -12,7 +12,7 @@
 </script>
 <Header />
 {#key data.currentRoute}
-<main id="root" in:fade={{ duration: 150, delay: 150 }} out:fade={{ duration: 150 }}>
+<main id="root" in:fade={{ duration: 150, delay: 150 }} out:fade={{ duration: 150 }} style="margin-top:70px !important">
     <slot><!-- optional fallback --></slot>
 </main>
 {/key}
