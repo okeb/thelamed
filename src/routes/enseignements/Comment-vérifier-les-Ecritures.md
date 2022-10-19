@@ -3,6 +3,7 @@ title: Comment vérifier les Écritures?
 date: "2021-12-14"
 image: "https://images.unsplash.com/photo-1586769852836-bc069f19e1b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
 layout: "enseignement"
+download: "https://kdrive.infomaniak.com/app/share/613340/b1be0018-840e-4b6f-a77f-31617141db57"
 ref : Fond/001/01
 published: true
 rubriques: 

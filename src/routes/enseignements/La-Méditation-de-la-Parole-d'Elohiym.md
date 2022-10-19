@@ -3,6 +3,7 @@ title: La Méditation de la Parole d’Èlohiym
 date: "2021-12-14"
 image: "https://images.unsplash.com/photo-1610050731641-f855ccdaf3f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
 layout: "enseignement"
+download: "https://kdrive.infomaniak.com/app/share/613340/d88f8e83-7f24-428e-be32-5f80aad6ca3b"
 ref : Fond/001/01
 published: true
 rubriques: 
