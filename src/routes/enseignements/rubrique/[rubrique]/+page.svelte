@@ -3,7 +3,7 @@
     export let data
 </script>
 
-<div class="bg-red-200 grid py-20 md:grid-cols-3 grid-cols-1 lg:px-24 <lg:px-1">
+<div class="bg-red-200 dark:bg-pink-800 grid py-20 md:grid-cols-3 grid-cols-1 lg:px-24 <lg:px-1">
     <div class="col-span-2">
         <h1 class="font-lato font-extrabold tracking-tight text-left lg:px-20 @md:px-12 px-7 pb-0">{data.rubrique}</h1>
         <p class="font-lato text-left md:px-10 pb-10 text-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat error quae voluptatibus porro, at, eum ut expedita dolorem laboriosam temporibus mollitia natus inventore nam deleniti illum, tempore omnis unde maxime.</p>
