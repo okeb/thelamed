@@ -2,10 +2,10 @@
     <h1 class=" font-lato text-gray-600 font-semibold text-5xl text-center">
         Vous avez une préoccupation
     </h1>
-    <div class=" my-24 mx-12 grid grid-cols-2">
-        <div class="">
-            <div class="grow-0 shrink-0 basis-auto mb-12 md:mb-0 w-full md:w-7/12 px-3 lg:px-6">
-                <h2 class="text-3xl font-bold mb-6">Les questions fréquentes</h2>
+    <div class=" my-24 md:mx-12 grid grid-cols-2 <md:grid-cols-1">
+        <div class="px-3">
+            <div class="mb-12 md:mb-0 w-full px-3 lg:px-0">
+                <h2 class="text-3xl font-bold mb-6 mx-0">Les questions fréquentes</h2>
                 <p class="font-bold mb-2 font-lato">Anim pariatur cliche reprehenderit?</p>
                 <p class="text-gray-500 mb-6 font-lato">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt
@@ -40,7 +40,7 @@
                 </p>
             </div>
         </div>
-        <div class="px-3 lg:px-6 pt-6 font-lato">
+        <div class="px-0 lg:px-6 pt-6 font-lato">
             <h2 class="font-bold mb-6 text-2xl">Ne trouvez-vous pas la réponse à votre question ? Écrivez-nous.</h2>
             <form class="px-12">
                 <div class="mb-4">
