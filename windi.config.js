@@ -33,7 +33,7 @@ export default {
   shortcuts: {
     "nav-link": {
       "@apply":
-        "text-black font-normal font-lato no-underline leading-none mx-0 my-auto px-3 py-3 transition-all",
+        "text-black font-semibold font-lato no-underline leading-none mx-0 my-auto px-3 py-3 transition-all",
       "&:hover": {
         "@apply": "text-blue-600 underline",
       },

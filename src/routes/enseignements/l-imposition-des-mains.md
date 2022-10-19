@@ -1,6 +1,7 @@
 ---
 title: L’imposition des mains
 date: "2021-12-14"
+summary: "L’imposition des mains est un usage commun dans les milieux évangéliques lorsqu'il y a lieu de prier pour les hommes. Cette pratique, dont l’origine remonte au temps du prophète Moshèh, n’a pas pour seul objectif les malades mais bien d’autres."
 image: "https://images.unsplash.com/photo-1520857014576-2c4f4c972b57?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
 layout: "enseignement"
 ref : Doc/001/01-4

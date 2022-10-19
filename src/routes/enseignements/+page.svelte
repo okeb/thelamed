@@ -75,8 +75,8 @@
           </p>
         </div>
         <p class=" absolute bottom-0 left-0 font-lato text-left leading-3 font-bold flex items-center justify-start px-0 mx-0 mt-4 cursor-pointer">
-          <svg width="28" height="28" viewBox="0 0 24 24" class="inline-block"><path fill="lightseagreen" d="M8 8a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2Zm5 12H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h5v3a3 3 0 0 0 3 3h3v2a1 1 0 0 0 2 0V8.94a1.31 1.31 0 0 0-.06-.27v-.09a1.07 1.07 0 0 0-.19-.28l-6-6a1.07 1.07 0 0 0-.28-.19a.29.29 0 0 0-.1 0a1.1 1.1 0 0 0-.31-.11H6a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h7a1 1 0 0 0 0-2Zm0-14.59L15.59 8H14a1 1 0 0 1-1-1ZM14 12H8a1 1 0 0 0 0 2h6a1 1 0 0 0 0-2Zm6.71 6.29a1 1 0 0 0-1.42 0l-.29.3V16a1 1 0 0 0-2 0v2.59l-.29-.3a1 1 0 0 0-1.42 1.42l2 2a1 1 0 0 0 .33.21a.94.94 0 0 0 .76 0a1 1 0 0 0 .33-.21l2-2a1 1 0 0 0 0-1.42ZM12 18a1 1 0 0 0 0-2H8a1 1 0 0 0 0 2Z"/></svg>
-          <span class="select-none ml-2" style="opacity:.5">Télécharger en PDF</span>
+          <a href="{post.meta.download}" target="_blank" rel="noopener noreferrer" class="underline-transparent"><div class="mt-6 font-lato text-left leading-3 font-bold flex items-center justify-start px-0 mx-0 mt-4 cursor-pointer"><svg width="28" height="28" viewBox="0 0 24 24" class="inline-block"><path fill="lightseagreen" d="M8 8a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2Zm5 12H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h5v3a3 3 0 0 0 3 3h3v2a1 1 0 0 0 2 0V8.94a1.31 1.31 0 0 0-.06-.27v-.09a1.07 1.07 0 0 0-.19-.28l-6-6a1.07 1.07 0 0 0-.28-.19a.29.29 0 0 0-.1 0a1.1 1.1 0 0 0-.31-.11H6a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h7a1 1 0 0 0 0-2Zm0-14.59L15.59 8H14a1 1 0 0 1-1-1ZM14 12H8a1 1 0 0 0 0 2h6a1 1 0 0 0 0-2Zm6.71 6.29a1 1 0 0 0-1.42 0l-.29.3V16a1 1 0 0 0-2 0v2.59l-.29-.3a1 1 0 0 0-1.42 1.42l2 2a1 1 0 0 0 .33.21a.94.94 0 0 0 .76 0a1 1 0 0 0 .33-.21l2-2a1 1 0 0 0 0-1.42ZM12 18a1 1 0 0 0 0-2H8a1 1 0 0 0 0 2Z"/></svg>
+          <span class="select-none ml-2" style="opacity:.5">Télécharger en PDF</span></div></a>
         </p>
       </div>
     {:else if post.meta.published == true && index > 0 && index < 5 }
@@ -94,45 +94,50 @@
           <Time style="font-size:xx-small; margin-left:0px !important; opacity:.3" timestamp="{post.meta.date}" format="D&nbsp;MMM" />
         </p>
         <p class="lg:absolute lg:bottom-0 lg:left-0 font-lato text-left leading-3 font-bold flex items-center justify-start px-0 mx-0 mt-4 cursor-pointer">
-          <svg width="28" height="28" viewBox="0 0 24 24" class="inline-block"><path fill="lightseagreen" d="M8 8a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2Zm5 12H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h5v3a3 3 0 0 0 3 3h3v2a1 1 0 0 0 2 0V8.94a1.31 1.31 0 0 0-.06-.27v-.09a1.07 1.07 0 0 0-.19-.28l-6-6a1.07 1.07 0 0 0-.28-.19a.29.29 0 0 0-.1 0a1.1 1.1 0 0 0-.31-.11H6a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h7a1 1 0 0 0 0-2Zm0-14.59L15.59 8H14a1 1 0 0 1-1-1ZM14 12H8a1 1 0 0 0 0 2h6a1 1 0 0 0 0-2Zm6.71 6.29a1 1 0 0 0-1.42 0l-.29.3V16a1 1 0 0 0-2 0v2.59l-.29-.3a1 1 0 0 0-1.42 1.42l2 2a1 1 0 0 0 .33.21a.94.94 0 0 0 .76 0a1 1 0 0 0 .33-.21l2-2a1 1 0 0 0 0-1.42ZM12 18a1 1 0 0 0 0-2H8a1 1 0 0 0 0 2Z"/></svg>
-          <span class="select-none ml-2" style="opacity:.5">Télécharger en PDF</span>
+          <a href="{post.meta.download}" target="_blank" rel="noopener noreferrer" class="underline-transparent"><div class="mt-6 font-lato text-left leading-3 font-bold flex items-center justify-start px-0 mx-0 mt-4 cursor-pointer"><svg width="28" height="28" viewBox="0 0 24 24" class="inline-block"><path fill="lightseagreen" d="M8 8a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2Zm5 12H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h5v3a3 3 0 0 0 3 3h3v2a1 1 0 0 0 2 0V8.94a1.31 1.31 0 0 0-.06-.27v-.09a1.07 1.07 0 0 0-.19-.28l-6-6a1.07 1.07 0 0 0-.28-.19a.29.29 0 0 0-.1 0a1.1 1.1 0 0 0-.31-.11H6a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h7a1 1 0 0 0 0-2Zm0-14.59L15.59 8H14a1 1 0 0 1-1-1ZM14 12H8a1 1 0 0 0 0 2h6a1 1 0 0 0 0-2Zm6.71 6.29a1 1 0 0 0-1.42 0l-.29.3V16a1 1 0 0 0-2 0v2.59l-.29-.3a1 1 0 0 0-1.42 1.42l2 2a1 1 0 0 0 .33.21a.94.94 0 0 0 .76 0a1 1 0 0 0 .33-.21l2-2a1 1 0 0 0 0-1.42ZM12 18a1 1 0 0 0 0-2H8a1 1 0 0 0 0 2Z"/></svg>
+          <span class="select-none ml-2" style="opacity:.5">Télécharger en PDF</span></div></a>
         </p>
       </div>
     {/if}
   {/each}
-
-  <div class="col-span-4 h-48"></div>
-
-  <!-- titre du reste des enseignements -->
-  <!-- <div class="col-span-4 mt-16 px-0 mb-4">
-    <h2 class="mt-0 ml-0 text-left font-sans text-3xl font-bold tracking-tight" style="margin-left:0 !important;">À ne pas manquer</h2>
-    <div class="flex justify-between -mt-2 py-0">
-      <p class="text-[25px] font-lato px-0 tracking-normal font-light" style="margin-left:0px !important;">Les enseignements indispensables, sélectionnées par nos soins</p>
-    </div>
-  </div>
-
-  <div class="md:col-span-3 col-span-4">
-    <div class="p-0 grid md:grid-cols-3 grid-cols-1 gap-7 mb-40">
-      <div class="h-[10rem] col-span-1 rounded-md bg-light-700 border-2 border-yellow-500 bg-origin-border bg-no-repeat bg-cover bg-center" style="background-image:url('https://images.unsplash.com/photo-1593526613712-7b4b9a707330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80')">
-      </div>
-      <div class="col-span-2">
-        <h5 class="-ml-10 text-left font-sans text-xl font-bold tracking-tight leading-6" style="margin-left:0px !important">How Did Adult Friendships Get So Complicated?</h5>
-        <p class="text-md font-lato px-0 text-gray-700 mb-3"  style="margin-left:0px !important">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus voluptatem rerum placeat aut voluptatibus fugiat quibusdam similique harum quidem? </p>
-        <p class="inline-block text-sm font-lato px-0 text-gray-400 inline-block" style="margin-left:0px !important;">
-          <a href="/enseignements/rubrique/lol" class="text-sm font-lato px-0 text-gray-400 font-normal inline-block inline-block" style="text-decoration:none !important; margin-left:0px !important; opacity:.5">
-            { 'La Doctrine Apostolique' }
-          </a>
-          <span class="text-sm inline-block inline-block px-2" style="margin:0px !important; font-size:9px; opacity:.3">&nbsp;&bull;</span>
-          <Time style="font-size:x-small; margin-left:0px !important; opacity:.2" timestamp="{ '2022-12-12' }" format="D&nbsp;MMM" />
-        </p>
-        <div class="mt-6 font-lato text-left leading-3 font-bold flex items-center justify-start px-0 mx-0 mt-4 cursor-pointer">
-          <svg width="28" height="28" viewBox="0 0 24 24" class="inline-block"><path fill="lightseagreen" d="M8 8a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2Zm5 12H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h5v3a3 3 0 0 0 3 3h3v2a1 1 0 0 0 2 0V8.94a1.31 1.31 0 0 0-.06-.27v-.09a1.07 1.07 0 0 0-.19-.28l-6-6a1.07 1.07 0 0 0-.28-.19a.29.29 0 0 0-.1 0a1.1 1.1 0 0 0-.31-.11H6a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h7a1 1 0 0 0 0-2Zm0-14.59L15.59 8H14a1 1 0 0 1-1-1ZM14 12H8a1 1 0 0 0 0 2h6a1 1 0 0 0 0-2Zm6.71 6.29a1 1 0 0 0-1.42 0l-.29.3V16a1 1 0 0 0-2 0v2.59l-.29-.3a1 1 0 0 0-1.42 1.42l2 2a1 1 0 0 0 .33.21a.94.94 0 0 0 .76 0a1 1 0 0 0 .33-.21l2-2a1 1 0 0 0 0-1.42ZM12 18a1 1 0 0 0 0-2H8a1 1 0 0 0 0 2Z"/></svg>
-          <span class="select-none ml-2" style="opacity:.5">Télécharger en PDF</span>
+  {#if data.posts.length > 4}
+      <div class="col-span-4 h-12"></div>
+      <div class="col-span-4 mt-16 px-0 mb-4">
+        <h2 class="mt-0 ml-0 text-left font-sans text-3xl font-bold tracking-tight" style="margin-left:0 !important;">À ne pas manquer</h2>
+        <div class="flex justify-between -mt-2 py-0">
+          <p class="text-[25px] font-lato px-0 tracking-normal font-light" style="margin-left:0px !important;">Les enseignements indispensables, sélectionnées par nos soins</p>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="col-span-1 hidden md:block">
-  </div> -->
+  {/if}
+  {#each data.posts as post, index}
+    {#if post.meta.published == true && index >= 5}
+      <div class="md:col-span-3 col-span-4">
+        <div class="p-0 grid md:grid-cols-3 grid-cols-1 gap-7 mb-40">
+          <div class="h-[10rem] col-span-1 rounded-md bg-light-700 border-2 border-yellow-500 bg-origin-border bg-no-repeat bg-cover bg-center" style="background-image:url('{post.meta.image}')">
+          </div>
+          <div class="col-span-2">
+            <h5 class="-ml-10 text-left font-sans text-xl font-bold tracking-tight leading-6" style="margin-left:0px !important">{post.meta.title}</h5>
+            <p class="text-md font-lato px-0 text-gray-700 mb-3"  style="margin-left:0px !important">{ post.meta.summary }</p>
+            <div class="grid grid-cols-2 flex items-center">
+              <p class="inline-block text-sm font-lato px-0 text-gray-400 inline-block" style="margin-left:0px !important;">
+                <a href="/enseignements/rubrique/lol" class="text-sm font-lato px-0 text-gray-400 font-normal inline-block inline-block" style="text-decoration:none !important; margin-left:0px !important; opacity:.5">
+                  { post.meta.rubriques }
+                </a>
+                <span class="text-sm inline-block inline-block px-2" style="margin:0px !important; font-size:9px; opacity:.3">&nbsp;&bull;</span>
+                <Time style="font-size:x-small; margin-left:0px !important; opacity:.2" timestamp="{ post.meta.date }" format="D&nbsp;MMM" />
+              </p>
+              <a href="{ post.meta.download }" target="_blank" rel="noopener noreferrer" class="underline-transparent  -mt-6">
+                <div class="mt-6 font-lato text-left leading-3 font-bold flex items-center justify-start px-0 mx-0 mt-4 cursor-pointer">
+                  <svg width="28" height="28" viewBox="0 0 24 24" class="inline-block"><path fill="lightseagreen" d="M8 8a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2Zm5 12H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h5v3a3 3 0 0 0 3 3h3v2a1 1 0 0 0 2 0V8.94a1.31 1.31 0 0 0-.06-.27v-.09a1.07 1.07 0 0 0-.19-.28l-6-6a1.07 1.07 0 0 0-.28-.19a.29.29 0 0 0-.1 0a1.1 1.1 0 0 0-.31-.11H6a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h7a1 1 0 0 0 0-2Zm0-14.59L15.59 8H14a1 1 0 0 1-1-1ZM14 12H8a1 1 0 0 0 0 2h6a1 1 0 0 0 0-2Zm6.71 6.29a1 1 0 0 0-1.42 0l-.29.3V16a1 1 0 0 0-2 0v2.59l-.29-.3a1 1 0 0 0-1.42 1.42l2 2a1 1 0 0 0 .33.21a.94.94 0 0 0 .76 0a1 1 0 0 0 .33-.21l2-2a1 1 0 0 0 0-1.42ZM12 18a1 1 0 0 0 0-2H8a1 1 0 0 0 0 2Z"/></svg>
+                  <span class="select-none ml-2" style="opacity:.5">Télécharger en PDF</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    {/if}
+  {/each}
 
 </div>
