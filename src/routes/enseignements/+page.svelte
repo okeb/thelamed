@@ -123,7 +123,7 @@
                 <span class="text-sm inline-block inline-block px-2" style="margin:0px !important; font-size:9px; opacity:.3">&nbsp;&bull;</span>
                 <Time style="font-size:x-small; margin-left:0px !important; opacity:.2" timestamp="{ post.meta.date }" format="D&nbsp;MMM" />
               </p>
-              <a href="{ post.meta.download }" target="_blank" rel="noopener noreferrer" class="underline-transparent  -mt-6">
+              <a href="{ post.meta.download }" target="_blank" rel="noopener noreferrer" class="underline-transparent  -mt-10">
                 <div class="mt-6 font-lato text-left leading-3 font-bold flex items-center justify-start px-0 mx-0 mt-4 cursor-pointer">
                   <svg width="28" height="28" viewBox="0 0 24 24" class="inline-block"><path fill="lightseagreen" d="M8 8a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2Zm5 12H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h5v3a3 3 0 0 0 3 3h3v2a1 1 0 0 0 2 0V8.94a1.31 1.31 0 0 0-.06-.27v-.09a1.07 1.07 0 0 0-.19-.28l-6-6a1.07 1.07 0 0 0-.28-.19a.29.29 0 0 0-.1 0a1.1 1.1 0 0 0-.31-.11H6a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h7a1 1 0 0 0 0-2Zm0-14.59L15.59 8H14a1 1 0 0 1-1-1ZM14 12H8a1 1 0 0 0 0 2h6a1 1 0 0 0 0-2Zm6.71 6.29a1 1 0 0 0-1.42 0l-.29.3V16a1 1 0 0 0-2 0v2.59l-.29-.3a1 1 0 0 0-1.42 1.42l2 2a1 1 0 0 0 .33.21a.94.94 0 0 0 .76 0a1 1 0 0 0 .33-.21l2-2a1 1 0 0 0 0-1.42ZM12 18a1 1 0 0 0 0-2H8a1 1 0 0 0 0 2Z"/></svg>
                   <span class="select-none ml-2" style="opacity:.5">Télécharger en PDF</span>
