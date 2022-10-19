@@ -98,19 +98,16 @@
           <span class="select-none ml-2" style="opacity:.5">Télécharger en PDF</span></div></a>
         </p>
       </div>
-    {/if}
-  {/each}
-  {#if data.posts.length > 4}
-      <div class="col-span-4 h-12"></div>
-      <div class="col-span-4 mt-16 px-0 mb-4">
-        <h2 class="mt-0 ml-0 text-left font-sans text-3xl font-bold tracking-tight" style="margin-left:0 !important;">À ne pas manquer</h2>
-        <div class="flex justify-between -mt-2 py-0">
-          <p class="text-[25px] font-lato px-0 tracking-normal font-light" style="margin-left:0px !important;">Les enseignements indispensables, sélectionnées par nos soins</p>
+    {:else }
+      {#if index == 5}
+        <div class="col-span-4 h-12"></div>
+        <div class="col-span-4 mt-16 px-0 mb-4">
+          <h2 class="mt-0 ml-0 text-left font-sans text-3xl font-bold tracking-tight" style="margin-left:0 !important;">Mais encore...</h2>
+          <div class="flex justify-between -mt-2 py-0">
+            <p class="text-[25px] font-lato px-0 tracking-normal font-light" style="margin-left:0px !important;">Découvrez nos autres enseignements</p>
+          </div>
         </div>
-      </div>
-  {/if}
-  {#each data.posts as post, index}
-    {#if post.meta.published == true && index >= 5}
+      {/if}
       <div class="md:col-span-3 col-span-4">
         <div class="p-0 grid md:grid-cols-3 grid-cols-1 gap-7 mb-40">
           <div class="h-[10rem] col-span-1 rounded-md bg-light-700 border-2 border-yellow-500 bg-origin-border bg-no-repeat bg-cover bg-center" style="background-image:url('{post.meta.image}')">
@@ -121,7 +118,7 @@
             <div class="grid grid-cols-2 flex items-center">
               <p class="inline-block text-sm font-lato px-0 text-gray-400 inline-block" style="margin-left:0px !important;">
                 <a href="/enseignements/rubrique/lol" class="text-sm font-lato px-0 text-gray-400 font-normal inline-block inline-block" style="text-decoration:none !important; margin-left:0px !important; opacity:.5">
-                  { post.meta.rubriques }
+                    { post.meta.rubriques }
                 </a>
                 <span class="text-sm inline-block inline-block px-2" style="margin:0px !important; font-size:9px; opacity:.3">&nbsp;&bull;</span>
                 <Time style="font-size:x-small; margin-left:0px !important; opacity:.2" timestamp="{ post.meta.date }" format="D&nbsp;MMM" />
@@ -136,8 +133,6 @@
           </div>
         </div>
       </div>
-
     {/if}
   {/each}
-
 </div>
