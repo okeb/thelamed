@@ -33,7 +33,7 @@
                     <div class="h-[10rem] col-span-1 rounded-md bg-light-700 border-2 border-yellow-500 bg-origin-border bg-no-repeat bg-cover bg-center" style="background-image:url('{post.meta.image}')">
                     </div>
                     <div class="col-span-2">
-                        <h5 class="-ml-10 text-left font-sans text-xl font-bold tracking-tight leading-6" style="margin-left:0px !important">{post.meta.title}</h5>
+                        <h5 class="-ml-10 text-left font-sans text-xl font-bold tracking-tight leading-6" style="margin-left:0px !important"><a class="underline-transparent text-black hover:text-black hover:underline" href="{post.path}">{post.meta.title}</a></h5>
                         <!-- <p class="text-md font-lato px-0 text-gray-700 mb-3"  style="margin-left:0px !important">{ post.meta.summary }</p> -->
                         <p class="text-md font-lato px-0 text-gray-700 mb-3"  style="margin-left:0px !important">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quod nemo eius in at ipsum dolore!</p>
                         <div class="">
