@@ -108,13 +108,13 @@
           </div>
         </div>
       {/if}
-      <a href="{post.path}" class="md:col-span-3 col-span-4">
+      <a href="{post.path}" class="md:col-span-3 col-span-4 underline-transparent">
         <div class="p-0 grid md:grid-cols-3 grid-cols-1 gap-7 mb-40">
           <div class="h-[10rem] col-span-1 rounded-md bg-light-700 border-2 border-yellow-500 bg-origin-border bg-no-repeat bg-cover bg-center" style="background-image:url('{post.meta.image}')">
           </div>
           <div class="col-span-2">
             <h5 class="-ml-10 text-left font-sans text-xl font-bold tracking-tight leading-6" style="margin-left:0px !important">{post.meta.title}</h5>
-            <p class="text-md font-lato px-0 text-gray-700 mb-3"  style="margin-left:0px !important">{ post.meta.summary }</p>
+            <p class="text-md font-lato px-0 text-gray-700 mb-3 dark:!text-white"  style="margin-left:0px !important">{ post.meta.summary }</p>
             <div class="grid grid-cols-2 flex items-center">
               <p class="inline-block text-sm font-lato px-0 text-gray-400 inline-block" style="margin-left:0px !important;">
                 <a href="/enseignements/rubrique/{ post.meta.rubriques }" class="text-sm font-lato px-0 text-gray-400 font-normal inline-block inline-block" style="text-decoration:none !important; margin-left:0px !important; opacity:.5">

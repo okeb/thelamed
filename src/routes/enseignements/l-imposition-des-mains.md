@@ -14,6 +14,7 @@ rubriques:
 <article class="article_post">
 
 > Bonjour, bonsoir à tous, 
+> 
 > L’imposition des mains est un usage commun dans les milieux évangéliques lorsqu'il y a lieu de prier pour les hommes. Cette pratique, dont l’origine remonte au temps du prophète Moshèh, n’a pas pour seul objectif les malades mais bien d’autres. Nous voulons, par cet article, vous édifier sur le sujet que nous considérons comme étant très important et bénéfique pour nos vies. Un manque suffisant d’enseignement sur ce sujet, expose les chrétiens à de graves dangers et pièges du diable.
 
 ## Quels sont les origines de l’imposition des mains ?

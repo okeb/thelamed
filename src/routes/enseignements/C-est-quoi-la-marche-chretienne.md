@@ -13,6 +13,7 @@ rubriques:
 <article class="article_post">
 
 > Bonjour, bonsoir à tous, 
+> 
 > Pendant la chute de Satan et les anges déchus du Royaume des Cieux, toute la hiérarchie démoniaque s’est installée depuis le deuxième ciel jusque dans les entrailles de la Terre appelées les enfers ou l’Hadès. Sachant que sa condamnation éternelle est scellée et irrévocable, Satan a un seul désir : entraîner le maximum de personnes avec lui. Et pour cela, il veut contrôler les êtres humains en les possédant pour mieux les assujettir, les manipuler et les motiver à commettre davantage le mal pour qu’ils se rendent odieux envers l’Èlohiym de Gloire et qu’ils soient perdus pour l’éternité.
 
 ## Qu’est-ce que la possession démoniaque ?

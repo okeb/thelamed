@@ -12,7 +12,8 @@ rubriques:
 
 <article class="article_post">
 
-> Bonjour bonsoir à tous, Comme toutes choses ont un début, bien évidemment toutes choses auront aussi une fin. Ce jour est prévu où les hommes de tous les âges et de toutes les époques, qui ont fait du mal sur cette Terre passeront en jugement et vont devoir rendre compte au Seigneur de Gloire ’Èlohiym Yehowshuw‘a ha-Mashiyah (Jésus-Christ) de toutes leurs mauvaises œuvres. Ce jour, c’est le Jugement dernier que la Bible appelle le Jugement éternel. Celui-ci est dit éternel car les sentences qui seront données déboucheront à une condamnation éternelle pour tous les méchants. Comme nous l’avons annoncé dans l’article sur ‘‘La résurrection des morts’’, nous allons expliquer ce qu’est la seconde Grande Résurrection.
+> Bonjour bonsoir à tous, 
+> Comme toutes choses ont un début, bien évidemment toutes choses auront aussi une fin. Ce jour est prévu où les hommes de tous les âges et de toutes les époques, qui ont fait du mal sur cette Terre passeront en jugement et vont devoir rendre compte au Seigneur de Gloire ’Èlohiym Yehowshuw‘a ha-Mashiyah (Jésus-Christ) de toutes leurs mauvaises œuvres. Ce jour, c’est le Jugement dernier que la Bible appelle le Jugement éternel. Celui-ci est dit éternel car les sentences qui seront données déboucheront à une condamnation éternelle pour tous les méchants. Comme nous l’avons annoncé dans l’article sur ‘‘La résurrection des morts’’, nous allons expliquer ce qu’est la seconde Grande Résurrection.
 
 ## Qu’est-ce que le Jugement éternel ?
 

@@ -13,6 +13,7 @@ rubriques:
 <article class="article_post">
 
 > Bonjour, bonsoir à tous, 
+> 
 > L’un des points essentiels et indispensables dans la marche chrétienne, c’est la méditation de la Parole d’Èlohiym. C’est par elle que tous les chrétiens sont formés et informés sur ce qui concerne la Bible et son histoire..
 
 ## Qu’est-ce que la méditation de la Parole ?
