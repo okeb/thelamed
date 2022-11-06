@@ -43,7 +43,27 @@ h1 {
         line-height: 3rem;
       } 
     }
-
+    @media (max-width:760px) {
+      h2 {
+        margin-left:22px !important;
+      }
+      blockquote {
+        p {
+          line-height: 1.7rem;
+          font-size:1.7rem;
+        } 
+      }
+    }
+    @media (min-width:760px) {
+      h2 {
+        margin-left:45px !important;
+      }
+      blockquote {
+        p {
+          line-height: 3rem;
+        } 
+      }
+    }
 }
 
 article {

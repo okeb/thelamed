@@ -72,6 +72,9 @@ La première chute eut lieu lorsque Satan et ses anges se sont révoltés contre
 
 La deuxième chute eut lieu dans Be’réshiyt (Genèse) 6:1-4. Les anges se sont accouplés avec les femmes pour donner naissance à des hybrides c’est-à-dire des êtres mi-homme mi-ange. Après avoir commis ce forfait, ’Adonay Yehowshuw‘a ha-Mashiyah les fit enchaîner dans des lieux obscures afin d’être jugés au jour du jugement dernier : *Et les anges qui n’avaient pas gardé leur origine mais qui avaient quitté leur propre demeure, il les a gardés sous l’obscurité, dans des liens éternels, pour le jugement du grand jour* (Yéhouda [Jude] 1:6_BYM).
 
+>
+
+
 Que toute la Gloire et l’Honneur soient rendus à Yehowshuw‘a ha-Mashiyah notre ’Èlohiym qui nous équipe de sa force et de sa grâce afin de vous présenter cet enseignement. Cet enseignement est le dernier de la série de la doctrine contenue dans ‘Ivriym (Hébreux) 6:1-3. Il y a plusieurs points de doctrine, nous nous évertuerons par la grâce du Seigneur à évoquer d’autres points doctrinaux pour votre édification. Amen ! 
 
 Notre prière pour vous, est que votre foi soit ferme face à toutes les séductions de l’iniquité et que vous n’alliez jamais dans le lac de feu et de soufre pour une souffrance éternelle, car Yehowshuw‘a ha-Mashiyah nous aime et nous veut à ses côtés pour l’éternité. 

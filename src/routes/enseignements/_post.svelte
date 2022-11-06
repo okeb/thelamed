@@ -2,6 +2,7 @@
   import Time from "svelte-time";
   export let title
   export let date
+  export let ref
   export let rubriques
   export let rubriques_json
 
