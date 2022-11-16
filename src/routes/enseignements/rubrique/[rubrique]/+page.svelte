@@ -3,13 +3,13 @@
     export let data
 </script>
 
-<div class="bg-red-200 dark:bg-pink-800 grid py-20 md:grid-cols-3 grid-cols-1 lg:px-24 <lg:px-1">
+<div class="bg-red-600 dark:bg-pink-800 grid py-20 md:grid-cols-3 grid-cols-1 lg:px-24 <lg:px-1  bg-origin-border bg-no-repeat bg-cover bg-center" style="background-image:url('')">
     <div class="col-span-2">
-        <h1 class="font-lato font-extrabold tracking-tight text-left lg:px-20 @md:px-12 px-7 pb-0">{data.rubrique}</h1>
-        <p class="font-lato text-left md:px-10 pb-10 text-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat error quae voluptatibus porro, at, eum ut expedita dolorem laboriosam temporibus mollitia natus inventore nam deleniti illum, tempore omnis unde maxime.</p>
+        <h1 class="font-lato font-extrabold tracking-tight text-left lg:px-20 @md:px-12 px-7 pb-0" style="color:white">{data.rubrique}</h1>
+        <p class="font-lato text-left md:px-10 pb-10 text-xl text-white" style="color:white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat error quae voluptatibus porro, at, eum ut expedita dolorem laboriosam temporibus mollitia natus inventore nam deleniti illum, tempore omnis unde maxime.</p>
     </div>
     <div  class="col-span-1 <md:px-8">
-        <img src="/abstract-brainstorm.gif" alt="" srcset="">
+        <!-- <img src="/abstract-brainstorm.gif" alt="" srcset=""> -->
     </div>
 </div>
 <!-- <div class="pl-20 my-14 nav-link">
@@ -27,7 +27,7 @@
     {#if data.posts.length}
          <div class="grid md:grid-cols-2 grid-cols-1 gap-7">
              {#each data.posts as post}
-              {#if post.meta.published == true}
+              {#if post.meta.published == true }
                 <div class="col-span-1">
                     <div class="p-0 grid md:grid-cols-3 grid-cols-1 gap-7 lg:mb-24 @md:mb-12 mb-6">
                     <div class="h-[10rem] col-span-1 rounded-md bg-light-700 border-2 border-yellow-500 bg-origin-border bg-no-repeat bg-cover bg-center" style="background-image:url('{post.meta.image}')">
@@ -35,7 +35,12 @@
                     <div class="col-span-2">
                         <h5 class="-ml-10 text-left font-sans text-xl font-bold tracking-tight leading-6" style="margin-left:0px !important"><a class="underline-transparent text-black hover:text-black hover:underline" href="{post.path}">{post.meta.title}</a></h5>
                         <!-- <p class="text-md font-lato px-0 text-gray-700 mb-3"  style="margin-left:0px !important">{ post.meta.summary }</p> -->
-                        <p class="text-md font-lato px-0 text-gray-700 mb-3"  style="margin-left:0px !important">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quod nemo eius in at ipsum dolore!</p>
+                        <p class="text-md font-lato px-0 text-gray-700 mb-3"  style="margin-left:0px !important">
+                            {#if post.meta.summary }
+                                { post.meta.summary.slice(0, 198) }
+                                {#if post.meta.summary.length > 198 }...{/if}
+                            {/if}
+                        </p>
                         <div class="">
                         <p class="inline-block text-sm font-lato px-0 text-gray-400 inline-block" style="margin-left:0px !important;">
                             <a href="/enseignements/rubrique/lol" class="text-sm font-lato px-0 text-gray-400 font-normal inline-block inline-block" style="text-decoration:none !important; margin-left:0px !important; opacity:.5">

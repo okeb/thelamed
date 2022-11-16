@@ -23,11 +23,11 @@
         font-size: 16px;
     }
 
-
     p {
         margin-left: 10px;
         margin-right: 10px;
     }
+
 }
 
 /* TODO: light side */
@@ -178,6 +178,7 @@
         -webkit-text-fill-color: transparent;
     } */
 
+    
     aside {
         color: white;
     }

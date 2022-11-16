@@ -1,3 +1,17 @@
+html {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+    ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #c1c1c1;
+    border-radius: 4px;
+  }
+}
+
 h1 {
   line-height: 3.3rem;
   padding-bottom: 3rem;
@@ -30,6 +44,7 @@ h1 {
     font-family: 'Merriweather', Arial, Helvetica, sans-serif;
     padding-top: 70px;
     position: sticky !important;
+    
     p {
       line-height: 30px;
     }
@@ -100,6 +115,32 @@ article {
       transition:All .5s;
     }
   }
+  h4 {
+    font-weight:bold;
+    font-size:16px;
+    margin-top:45px;
+    margin-bottom:25px;
+    padding-left:10px;
+    &:hover {
+      color:blue !important;
+      transition:All .5s;
+    }
+  }
+  sup {
+    color:rgb(245, 158, 11);
+  }
+  p.bas_de_page, p.bdp {
+    font-size: 12px;
+    font-family: 'Lato';
+    opacity:.7;
+    padding-top:17px;
+    padding-bottom:20px;
+    line-height: 15px !important;
+
+    sup {
+      color:inherit;
+    }
+  }
 }
 
 aside {
@@ -120,9 +161,10 @@ aside {
       font-size:12px;
       margin:20px 0;
       line-height: 14px;
-      
     }
   }
+
+
   ul {
     list-style-type:none;
   }

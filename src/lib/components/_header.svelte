@@ -13,11 +13,26 @@
 
 </script>
 
-<header class=" fixed left-0 right-0 top-0 z-40 font-lato lg:px-40 px-6 py-5 dark:bg-black bg-white grid grid-cols-3 <md:grid-cols-2 font-normal border-1 border-gray-800 <md:pl-8 <md:pr-0 <md:py-0 dark:text-white">
+<header class=" fixed left-0 right-0 top-0 z-40 font-lato lg:px-40 px-6 py-5 dark:bg-black bg-white grid grid-cols-2 <md:grid-cols-2 font-normal border-1 border-gray-800 <md:pl-8 <md:pr-0 <md:py-0 dark:text-white">
   <div class="flex content-center">
     <a class="nav-title text-2xl no-underline my-auto font-bold font-merri" href="/">LAMED</a>
   </div>
-  <div class="mx-0 <md:hidden px-0 flex <md:gap-2 lg:gap-4 py-0 content-center justify-center">
+  <div class="mx-0 <md:hidden px-0 flex <md:gap-2 lg:gap-4 py-0 content-center justify-end">
+    <a class="nav-link group !no-underline" href="/">Accueil
+      <div class="relative h-[1px] w-0 group-hover:(bg-yellow-500 w-full) duration-600 ease-in-out transition-all p-0 m-0 bg-dark-50 left-0 -bottom-2 right-0"></div>
+    </a>
+    <a class="nav-link group !no-underline" href="/enseignements">Enseignements
+      <div class="relative h-[1px] w-0 group-hover:(bg-yellow-500 w-full) duration-600 ease-in-out transition-all p-0 m-0 bg-dark-50 left-0 -bottom-2 right-0"></div>
+    </a>
+    <!-- <a class="nav-link group !no-underline" href="/nous">À&nbsp;propos
+      <div class="relative h-[1px] w-0 group-hover:(bg-yellow-500 w-full) duration-600 ease-in-out transition-all p-0 m-0 bg-dark-50 left-0 -bottom-2 right-0"></div>
+    </a>
+    <a class="nav-link group !no-underline" href="/contact">Contact
+      <div class="relative h-[1px] w-0 group-hover:(bg-yellow-500 w-full) duration-600 ease-in-out transition-all p-0 m-0 bg-dark-50 left-0 -bottom-2 right-0"></div>
+    </a> -->
+  </div>
+  
+  <!-- <div class="mx-0 <md:hidden px-0 flex <md:gap-2 lg:gap-4 py-0 content-center justify-center">
     <a class="nav-link group !no-underline" href="/">Accueil
       <div class="relative h-[1px] w-0 group-hover:(bg-yellow-500 w-full) duration-600 ease-in-out transition-all p-0 m-0 bg-dark-50 left-0 -bottom-2 right-0"></div>
     </a>
@@ -32,13 +47,12 @@
     </a>
   </div>
   <div class="flex content-center justify-end">
-    <!-- <a href="/connexion" class="nav-link-light px-4 py-3 hover:bg-light-600 dark:hover:bg-gray-900 rounded-md">Connexion</a> -->
     <button in:fade out:fade class="md:hidden { menu? 'invisible':'visible' }  rounded-md bg-transparent text-black border-transparent px-3" on:click={open_menu}>
       <svg width="48" height="48" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 8h12M6 12h12M6 16h12"/></svg>
     </button>
     
     <button class="<md:hidden nav-link-light inline-flex items-center justify-center px-4 py-1.5 ml-4 text-base font-medium  rounded-md whitespace-nowrap hover:bg-yellow-500 dark:border border-transparent dark:border-gray-600 dark:hover:border-transparent">S'inscrire</button>
-  </div>
+  </div> -->
 </header>
 
 
@@ -84,29 +98,29 @@
       color:black;
     }
   }
-  @media (prefers-color-scheme: light) and (max-width: 563px) {
-    header button {
-      color:black;
-      background-color: white;
-    }
-  }
-  @media (prefers-color-scheme: dark) and (min-width: 763px) {
-    header button {
-      color:white;
-      background-color: black;
-      &:hover {
-        color:#000;
-        background-color: rgba(245, 158, 11, var(--tw-bg-opacity)) !important;
-      }
-    }
-  }
+  // @media (prefers-color-scheme: light) and (max-width: 563px) {
+  //   header button {
+  //     color:black;
+  //     background-color: white;
+  //   }
+  // }
+  // @media (prefers-color-scheme: dark) and (min-width: 763px) {
+  //   header button {
+  //     color:white;
+  //     background-color: black;
+  //     &:hover {
+  //       color:#000;
+  //       background-color: rgba(245, 158, 11, var(--tw-bg-opacity)) !important;
+  //     }
+  //   }
+  // }
   @media (prefers-color-scheme: dark) {
-    header button {
-      color:white;
-      background-color: black;
-      border-style: solid;
+    // header button {
+    //   color:white;
+    //   background-color: black;
+    //   border-style: solid;
 
-    }
+    // }
 
     .nav-link {
       color:#CCC;

@@ -29,12 +29,11 @@
 </script>
 
 
-
-<section>
+<div>
     <section class="hero grid grid-cols-1 content-center h-screen <md:px-10 <xl:px-24 xl:px-56 py-0">
         <div>
             {#if start}
-                 <h1 class="text-center font-lato font-semibold -mb-1 leading-13 md:leading-17 text-5xl md:text-7xl -mt-12" transition:typewriter>Des enseignements bibliques qui bâtissent votre Foi.</h1>
+                <h1 class="text-center font-lato font-semibold -mb-1 leading-13 md:leading-17 text-5xl md:text-7xl -mt-12" transition:typewriter>Des enseignements bibliques qui bâtissent votre Foi.</h1>
             {/if}
         </div>
         <p class="mb-8 text-xl font-lato text-center text-gray-500 lg:text-2xl dark:text-gray-400">Retrouvez <span class="underline-blue-500 underline underline-offset-2 underline-2">gratuitement</span> des enseignements sur <span class="underline-green-500 underline underline-offset-2">diverses domaines de la marche du chrétien</span>, et à la lumière de la parole du Seigneur <span class="underline-yellow-500 underline underline-offset-2 underline-2">Yehowshuw'a Ha-Mashiyah</span>, selon l’excellence de sa grâce.</p>
@@ -55,95 +54,4 @@
             </div>
         </div> -->
     </section>
-    <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
-    </div>
-</section>
-
-<style lang="scss">
-    .hero button {
-        color:#FFF;
-        font-weight:bold;
-    }
-
-  .pushable {
-    position: relative;
-    border: none;
-    background: transparent;
-    padding: 0;
-    cursor: pointer;
-    outline-offset: 4px;
-    transition: filter 250ms;
-    font-family: lato;
-  }
-  .shadow {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 13px;
-    background: hsl(0deg 0% 0% / 0.25);
-    will-change: transform;
-    transform: translateY(2px);
-    transition:
-      transform
-      600ms
-      cubic-bezier(.3, .7, .4, 1);
-  }
-  .edge {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 13px;
-    // background-color:hsl(340deg 100% 32%);
-    background-color:#000;
-  }
-  .front {
-    display: block;
-    position: relative;
-    padding: 10px 42px;
-    border-radius: 13px;
-    font-size: 1rem;
-    padding-bottom: 14px;
-    color: white;
-    background: #222;
-    // background: hsl(345deg 100% 47%);
-    will-change: transform;
-    transform: translateY(-4px);
-    transition:
-      transform
-      600ms
-      cubic-bezier(.3, .7, .4, 1);
-  }
-  .pushable:hover {
-    filter: brightness(110%);
-  }
-  .pushable:hover .front {
-    transform: translateY(-6px);
-    transition:
-      transform
-      250ms
-      cubic-bezier(.3, .7, .4, 1.5);
-  }
-  .pushable:active .front {
-    transform: translateY(-2px);
-    transition: transform 34ms;
-  }
-  .pushable:hover .shadow {
-    transform: translateY(4px);
-    transition:
-      transform
-      250ms
-      cubic-bezier(.3, .7, .4, 1.5);
-  }
-  .pushable:active .shadow {
-    transform: translateY(1px);
-    transition: transform 34ms;
-  }
-  .pushable:focus:not(:focus-visible) {
-    outline: none;
-  }
-
-</style>
+</div>

@@ -10,13 +10,13 @@
   export let data
 </script>
 
-<div class="grid md:grid-cols-4 grid-cols-1 lg:px-40  px-8 gap-7 mt-24" id="enseignement">
+<div class="grid md:grid-cols-4 grid-cols-1 lg:px-40  px-8 gap-7 mt-10 pb-30" id="enseignement">
   <div class="col-span-4">
-    <p class="pl-0 ml-0 text-left font-sans text-lg font-bold tracking-tight">Bonjour, Bonsoir à vous&nbsp;!</p>
+    <p class="pl-0 ml-0 text-left font-sans text-lg font-bold tracking-tight pt-14">Bonjour, Bonsoir à vous&nbsp;!</p>
     <h2 class="mt-0 ml-0 text-left font-sans text-3xl font-bold tracking-tight" style="margin-left:0px !important;">Nos différentes rubriques</h2>
     <div class="md:flex justify-between -mt-2 py-0">
       <p class="text-[25px] font-lato px-0 tracking-normal font-light" style="margin-left:0px !important;">Choisissez la thématique qui vous interèsse</p>
-      <a href="/" id="list-rubrique-button" class="text-lg font-normal font-lato px-0" style="margin-right:0px !important; text-decoration:none !important;">Voir la liste</a>
+      <a href="/enseignements/rubrique/" id="list-rubrique-button" class="text-lg font-normal font-lato px-0" style="margin-right:0px !important; text-decoration:none !important;">Voir la liste</a>
     </div>
   </div>
 
@@ -55,7 +55,7 @@
   </div>
 
   {#each data.posts as post, index}
-    {#if post.meta.published == true && index == 0 }
+    {#if (post.meta.published == true) && (index == 0) }
       <div class="p-0 relative lg:h-[625px] h-[495px] lg:col-span-2 col-span-4 lg:row-span-2 row-span-1 last-post">
         <div class="p-0">
           <div class="h-[20rem] w-full rounded-sm bg-light-700 border-2 border-yellow-500 bg-origin-border bg-no-repeat bg-cover bg-center" style="background-image:url('{post.meta.image}')"></div>
@@ -108,8 +108,9 @@
           </div>
         </div>
       {/if}
+      {#if post.meta.published == true}
       <a href="{post.path}" class="md:col-span-3 col-span-4 underline-transparent">
-        <div class="p-0 grid md:grid-cols-3 grid-cols-1 gap-7 mb-40">
+        <div class="p-0 grid md:grid-cols-3 grid-cols-1 gap-7 mb-10">
           <div class="h-[10rem] col-span-1 rounded-md bg-light-700 border-2 border-yellow-500 bg-origin-border bg-no-repeat bg-cover bg-center" style="background-image:url('{post.meta.image}')">
           </div>
           <div class="col-span-2">
@@ -133,6 +134,7 @@
           </div>
         </div>
       </a>
+      {/if}
     {/if}
   {/each}
 </div>

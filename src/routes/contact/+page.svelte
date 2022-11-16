@@ -1,7 +1,18 @@
 <div class="py-12 dark:bg-black">
-    <h1 class=" font-lato text-gray-600 font-semibold text-5xl text-center">
-        Vous avez une préoccupation
-    </h1>
+    <div class="grid grid-cols-5 px-26">
+        <div class="col-span-3 flex items-end">
+            <h1 class=" font-lato text-gray-600 font-semibold text-5xl text-left p-0 mb-0">
+                Nous ne sommes que des serviteurs inutiles qui essaye de partager leur amour pour Le Seigneur Yéhoshuw'a Ha Mashiyah
+            </h1>
+        </div>
+        <p class="col-span-2 flex items-end">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus atque magni neque nisi totam officiis velit labore aliquam! Perspiciatis placeat dignissimos, voluptatibus quia odio laborum! Fugiat assumenda tempore quisquam accusamus!
+        </p>
+    </div>
+    <div class="w-full">
+        
+    </div>
+    
     <div class=" my-24 md:mx-12 grid grid-cols-2 <md:grid-cols-1">
         <div class="px-3">
             <div class="mb-12 md:mb-0 w-full px-3 lg:px-0">

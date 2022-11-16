@@ -1,6 +1,7 @@
 ---
 title: Comment vérifier les Écritures?
 date: "2021-12-14"
+summary: "Depuis sa naissance, L'Ekklèsia est fortement combattue par les puissances des ténèbres. Mais l'une des armes de Satan pour renverser les chrétiens, ce sont les fausses doctrines qui sont des enseignements erronés, partagés en vue de détruire la vie des disciples du Seigneur Yehowshuw'a ha-Mashiyah."
 image: "https://images.unsplash.com/photo-1586769852836-bc069f19e1b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
 layout: "enseignement"
 download: "https://kdrive.infomaniak.com/app/share/613340/b1be0018-840e-4b6f-a77f-31617141db57"

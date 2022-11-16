@@ -16,5 +16,5 @@
     <slot><!-- optional fallback --></slot>
 </main>
 {/key}
-<Footer />
+<!-- <Footer /> -->
 
