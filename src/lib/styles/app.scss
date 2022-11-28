@@ -86,12 +86,15 @@ h1 {
 
 article {
   margin-top:-30px !important;
-  margin-bottom:130px !important;
+  height:calc(100vh - 30px);
+  overflow: scroll;
+  margin-bottom:0px !important;
   h2 {
     font-size: 1.7rem;
     margin-bottom:30px;
     margin-top:100px;
     line-height: 36px;
+    overflow: scroll;
     font-weight: 900 !important;
     transition: all .5;
     &:hover {
@@ -145,10 +148,13 @@ article {
 
 aside {
   font-family: 'lato';
-  height: auto;
+  // height: auto;
   margin-right:19px;
   margin-top:40px !important;
+  margin-bottom:0px !important;
   border:none !important;
+  overflow: scroll;
+  height:calc(100vh - 100px);
   .aside-menu {
     list-style-type: none;
     color:aliceblue;

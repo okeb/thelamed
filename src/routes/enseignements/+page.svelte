@@ -30,7 +30,15 @@
             {:else if  (rubrique === 'Les Fondamentaux') }
               <div class="rounded-sm h-16 w-28 bg-light-700 group-hover:border-2 group-hover:border-yellow-400 bg-origin-border bg-no-repeat bg-cover bg-center mr-5" style="background-image:url('https://images.unsplash.com/photo-1554322662-5b660295377d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80')"></div>
             {:else if  (rubrique === "L'Historique") }
-              <div class="rounded-sm h-16 w-28 bg-light-700 group-hover:border-2 group-hover:border-yellow-400 bg-origin-border bg-no-repeat bg-cover bg-center mr-5" style="background-image:url('https://images.unsplash.com/photo-1491841573634-28140fc7ced7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80')"></div>
+              <div class="rounded-sm h-16 w-28 bg-light-700 group-hover:border-2 group-hover:border-yellow-400 bg-origin-border bg-no-repeat bg-cover bg-center mr-5" style="background-image:url('https://images.pexels.com/photos/2179666/pexels-photo-2179666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')"></div>
+            {:else if  (rubrique === "L'Eschatologie'") }
+              <div class="rounded-sm h-16 w-28 bg-light-700 group-hover:border-2 group-hover:border-yellow-400 bg-origin-border bg-no-repeat bg-cover bg-center mr-5" style="background-image:url('https://images.pexels.com/photos/7438443/pexels-photo-7438443.jpeg?auto=compress&cs=tinysrgb&w=800')"></div>
+            {:else if  (rubrique === "Les Réligions") }
+              <div class="rounded-sm h-16 w-28 bg-light-700 group-hover:border-2 group-hover:border-yellow-400 bg-origin-border bg-no-repeat bg-cover bg-center mr-5" style="background-image:url('https://images.pexels.com/photos/2730218/pexels-photo-2730218.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500')"></div>
+            {:else if  (rubrique === "Les Audios") }
+              <div class="rounded-sm h-16 w-28 bg-light-700 group-hover:border-2 group-hover:border-yellow-400 bg-origin-border bg-no-repeat bg-cover bg-center mr-5" style="background-image:url('https://images.pexels.com/photos/3783471/pexels-photo-3783471.jpeg?auto=compress&cs=tinysrgb&w=800')"></div>
+            {:else if  (rubrique === "Les Livres") }
+              <div class="rounded-sm h-16 w-28 bg-light-700 group-hover:border-2 group-hover:border-yellow-400 bg-origin-border bg-no-repeat bg-cover bg-center mr-5" style="background-image:url('https://images.pexels.com/photos/2908984/pexels-photo-2908984.jpeg?auto=compress&cs=tinysrgb&w=800')"></div>
             {:else}
                <div class="rounded-sm h-20 w-28 bg-light-700 group-hover:border-2 group-hover:border-yellow-400 bg-origin-border bg-no-repeat bg-cover bg-center"></div>
             {/if}
