@@ -19,7 +19,9 @@ rubriques:
 
 ## Qu’est-ce que la méditation de la Parole ?
 
-La méditation consiste, après lecture d’un verset de la Bible, à y réfléchir profondément pour en comprendre le sens. Simplement, il est évident que nous ne pouvons pas déterminer le temps de cette réflexion. De manière personnelle, et tout au long de sa marche, chaque chrétien est appelé à prendre le temps qu’il veut pour cette étude : *Que ce livre de la Torah ne s’éloigne pas de ta bouche, médite-le jour et nuit, pour agir fidèlement selon tout ce qui y est écrit, car c’est alors que tu auras du succès dans tes entreprises, c’est alors que tu réussiras* (Yéhoshoua [Josué] 1:8_BYM1).
+La méditation consiste, après lecture d’un verset de la Bible, à y réfléchir profondément pour en comprendre le sens. Simplement, il est évident que nous ne pouvons pas déterminer le temps de cette réflexion. De manière personnelle, et tout au long de sa marche, chaque chrétien est appelé à prendre le temps qu’il veut pour cette étude : *Que ce livre de la Torah ne s’éloigne pas de ta bouche, médite-le jour et nuit, pour agir fidèlement selon tout ce qui y est écrit, car c’est alors que tu auras du succès dans tes entreprises, c’est alors que tu réussiras* (Yéhoshoua [Josué] 1:8_BYM<sup>1</sup>).
+
+<p class="bdp">1. La Bible de Yéhoshoua Mashiah - Édition 2020.</p>
 
 ## Pourquoi méditer la Parole de ’Èlohiym ?
 
