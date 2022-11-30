@@ -206,7 +206,7 @@ Excepté les sens, la pensée, les sentiments, la consécration mystique et les 
 22. <strong>Témoignage anonyme</strong>: Pour avoir prié une deuxième fois pour le nouveau-né d’une de ses voisines, alors même que le Seigneur lui avait interdit de s’y rendre, il a été possédé d’un démon. Après la repentance et la prière, il a été délivré.
 </p>
 
-
+## Mais aussi
 ### **La pensée :**
 La pensée est notre lieu de réflexion mais aussi notre champ de bataille contre les mauvaises pensées. Quant à l’ennemi, il aime bien forcer les portes de nos pensées afin de nous assaillir. Il est par exemple le premier à nous ramener à penser aux choses de notre vie passée, que nous avons abandonnées et qui n’étaient pas agréables. Son objectif est de nous pousser à nous abandonner à des pensées qui ne glorifient pas le Seigneur pour donner accès aux démons. 
 Dans certaines religions comme le Yoga ou les méditations transcendantales, il est souvent demandé aux pratiquants de faire du vide dans leurs pensées pour être en connexion avec certaines réalités spirituelles. Il faut éviter de pratiquer de tels actes car ce sont des appels à des démons puissants qui viennent pour détruire les vies. Au contraire, la Bible nous demande d’être remplis du Saint-Esprit (Ephesios [Éphésiens] 5:18) et non d’être vide car cette condition est celle recherchée par les esprits impurs (Loukas [Luc] 11:24-26).
@@ -393,6 +393,7 @@ L’équipe de l’association La Grande Moisson
   - [**L’ouïe :**](#louïe-)
   - [**L'Odorat**:](#lodorat)
   - [**Le toucher :**](#le-toucher-)
+- [Mais aussi](#mais-aussi)
   - [**La pensée :**](#la-pensée-)
   - [**Les sentiments :**](#les-sentiments-)
   - [**Les consécrations mystiques :**](#les-consécrations-mystiques-)
