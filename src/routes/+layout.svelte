@@ -9,6 +9,7 @@
   import { fade } from 'svelte/transition'
 
   export let data
+
 </script>
 <Header />
 {#key data.currentRoute}
