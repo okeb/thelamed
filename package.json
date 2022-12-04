@@ -20,6 +20,7 @@
   },
   "type": "module",
   "dependencies": {
+    "@vercel/analytics": "^0.1.5",
     "dayjs": "^1.11.5",
     "rehype-autolink-headings": "^6.1.1",
     "rehype-slug": "^5.0.1",
