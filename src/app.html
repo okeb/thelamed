@@ -21,9 +21,6 @@
 		%sveltekit.head%
 	</head>
 	<script>
-		import { inject } from '@vercel/analytics';
-
-		inject();
 	if (window.matchMedia('(prefers-color-scheme: dark)').matches)
 		document.documentElement.classList.add('dark')
 	else
