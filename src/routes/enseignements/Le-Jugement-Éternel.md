@@ -2,7 +2,7 @@
 title: Le Jugement Éternel
 date: "2022-10-19"
 summary: "Comme toutes choses ont un début, bien évidemment toutes choses auront aussi une fin. Ce jour est prévu où les hommes de tous les âges et de toutes les époques, qui ont fait du mal sur cette Terre passeront en jugement et vont devoir rendre compte au Seigneur de Gloire ’Èlohiym Yehowshuw‘a ha-Mashiyah (Jésus-Christ) de toutes leurs mauvaises œuvres."
-image: "https://images.unsplash.com/photo-1593115057322-e94b77572f20?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&q=80"
+image: "https://images.unsplash.com/photo-1436450412740-6b988f486c6b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60"
 layout: "enseignement"
 download: "https://kdrive.infomaniak.com/app/share/613340/6a7c8abe-0eac-4836-bd66-f03f39b117f3"
 ref : Doc/001/06

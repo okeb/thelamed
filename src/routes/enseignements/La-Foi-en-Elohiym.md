@@ -2,11 +2,11 @@
 title: La Foi en Elohiym
 date: "2023-02-17"
 summary: "Ce terme qui paraît si simple à aborder, est en fait complexe dans son ensemble. Il est au cœur de nombreuses prédications, livres, conférences etc. Mais qu’est-ce que véritablement la Foi dont parle les chrétiens dans les ekklèsias (églises) locales ?"
-image: "https://images.unsplash.com/photo-1483048135245-05d6017c6cef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE2fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60"
+image: "https://images.unsplash.com/photo-1457139621581-298d1801c832?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
 layout: "enseignement"
 download: "https://kdrive.infomaniak.com/app/share/613340/b013de60-2e9a-46a0-96f8-539999a495d7"
 ref : Doc/001/01-2
-published: true
+published: false
 rubriques: 
   - "La Doctrine Apostolique"
 ---
