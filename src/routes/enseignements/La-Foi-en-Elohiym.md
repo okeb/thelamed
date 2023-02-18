@@ -6,7 +6,7 @@ image: "https://images.unsplash.com/photo-1457139621581-298d1801c832?ixlib=rb-4.
 layout: "enseignement"
 download: "https://kdrive.infomaniak.com/app/share/613340/b013de60-2e9a-46a0-96f8-539999a495d7"
 ref : Doc/001/01-2
-published: false
+published: true
 rubriques: 
   - "La Doctrine Apostolique"
 ---
